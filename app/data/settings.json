@@ -1,0 +1,59 @@
+{
+    "color_range": [
+        [
+            [
+                160,
+                100,
+                100
+            ],
+            [
+                180,
+                255,
+                255
+            ]
+        ]
+    ],
+    "clip_positions": [],
+    "thresholds": [],
+    "color_space": "HSV",
+    "gamma_value": 1.2,
+    "morph_kernel_size": 5,
+    "noise_reduction_method": "Gaussian",
+    "frame_width": 1280,
+    "frame_height": 720,
+    "rotation": 90,
+    "result_output_duration": 1.0,
+    "trigger_threshold": 70.0,
+    "camera_settings": {
+        "white_balance": 4500,
+        "white_balance_automatic": true,
+        "brightness": 50,
+        "contrast": 50,
+        "saturation": 50,
+        "resolution_scale": 100,
+        "gain": 73,
+        "power_line_frequency": 2,
+        "sharpness": 128,
+        "backlight_compensation": false,
+        "auto_exposure": true,
+        "exposure_time_absolute": 333,
+        "focus_absolute": 0,
+        "focus_automatic_continuous": true
+    },
+    "camera_params": {
+        "white_balance": 4500,
+        "white_balance_automatic": true,
+        "brightness": 50,
+        "contrast": 50,
+        "saturation": 50,
+        "resolution_scale": 100,
+        "gain": 73,
+        "power_line_frequency": 2,
+        "sharpness": 128,
+        "backlight_compensation": false,
+        "auto_exposure": true,
+        "exposure_time_absolute": 333,
+        "focus_absolute": 0,
+        "focus_automatic_continuous": true
+    }
+}

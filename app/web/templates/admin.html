@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>管理者用画面</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>管理者用画面</h1>
+    </header>
+    <main>
+        <section>
+            <h2>システム設定</h2>
+            <p>各種設定変更を行います。</p>
+            <form id="settingsForm">
+                <label for="newSetting">新しい設定値:</label>
+                <input type="text" id="newSetting" name="newSetting">
+                <button type="submit">更新</button>
+            </form>
+        </section>
+        <section>
+            <h2>ログ確認</h2>
+            <button id="refreshLogs">ログ更新</button>
+            <pre id="logContent">ここにログが表示されます。</pre>
+        </section>
+        <section>
+            <h2>ユーザーロール管理</h2>
+            <p>管理者とオペレーターの権限を設定します。</p>
+            <!-- 権限設定用のUIを追加 -->
+        </section>
+    </main>
+    <footer>
+        <p><a href="{{ url_for('index') }}">トップページへ戻る</a></p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

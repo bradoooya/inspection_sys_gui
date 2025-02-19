@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Inspection System - トップページ</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Inspection System</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('calibration') }}">キャリブレーション</a></li>
+            <li><a href="{{ url_for('inspection') }}">検査</a></li>
+            <li><a href="{{ url_for('preview') }}">プレビュー</a></li>
+            <li><a href="{{ url_for('admin') }}">管理者用</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>システム概要</h2>
+            <p>
+                このシステムは、Raspberry Pi を用いた機械視覚検査システムです。
+                キャリブレーション、検査、プレビュー、管理者用の各画面から、直感的な操作とモニタリングを実現します。
+            </p>
+        </section>
+        <section>
+            <h2>利用方法</h2>
+            <p>
+                各リンクをクリックして、目的の画面に移動してください。
+                詳細な操作方法は各画面内の説明をご確認ください。
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Houei Inspection System</p>
+    </footer>
+</body>
+</html>
